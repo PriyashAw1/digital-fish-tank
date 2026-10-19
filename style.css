@@ -1,0 +1,31 @@
+CSS
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff; /* Light background to contrast the tank */
+}
+
+#tank {
+    /* Tank Size: 800x600. If fish are 100x100, this is more than double */
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    position: relative; /* Required to keep fish absolutely positioned inside */
+    overflow: hidden; /* Ensures nothing visually leaves the tank */
+    
+    /* Tank Gradient (Requirement) */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    
+    /* Distinct Edges (Requirement) */
+    border: 8px solid #333;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0,0.5);
+}
+
+/* Base style for fish images */
+.fish {
+    position: absolute; /* Allows JS to move them freely via top/left */
+    width: 100px;
+    height: 100px;
+    cursor: pointer; /* Indicates they can be tapped/clicked */
+}
