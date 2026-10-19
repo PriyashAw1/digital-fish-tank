@@ -1,10 +1,9 @@
-
 const fishImages = [
-    "https://via.placeholder.com/100/FF5733/FFFFFF?text=Fish+1",
-    "https://via.placeholder.com/100/33FF57/FFFFFF?text=Fish+2",
-    "https://via.placeholder.com/100/3357FF/FFFFFF?text=Fish+3",
-    "https://via.placeholder.com/100/F033FF/FFFFFF?text=Fish+4",
-    "https://via.placeholder.com/100/FFF633/000000?text=Fish+5"
+    "fish1.png",
+    "fish2.png",
+    "fish3.png",
+    "fish4.png",
+    "fish5.png"
 ];
 
 const tank = document.getElementById("tank");
